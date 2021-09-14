@@ -1,0 +1,22 @@
+POST *api/auth/login (email, password)
+POST api/auth/logout
+POST api/auth/refresh
+
+POST *api/user (name, email, password, birthdate)
+PUT api/user (name, email, password, birthdate, city, work, password, password_confirm)
+GET api/user
+GET api/user/123
+
+POST api/user/avatar (AVATAR)
+POST api/user/cover (COVER)
+
+GET api/feed (PAGE) Home
+GET api/user/feed (PAGE) Meu Feed
+GET api/user/123/feed (PAGE) Feed de Algum Usuário
+
+POST api/feed (type = text/photo, body, photo)
+
+POST api/post/123/like
+POST api/post/123/comment (txt)
+
+GET api/search (txt)
