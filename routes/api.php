@@ -26,11 +26,11 @@ Route::post('/auth/logout', 'AuthController@logout');
 Route::post('/auth/refresh', 'AuthController@refresh');
 
 Route::post('/user', 'AuthController@create');
-/*
+
 Route::put('/user', 'UserController@update');
 Route::post('/user/avatar', 'UserController@updateAvatar');
 Route::post('/user/cover', 'UserController@updateCover');
-
+/*
 Route::get('/feed', 'FeedController@refresh');
 Route::get('/user/feed', 'FeedController@refresh');
 Route::get('/user/{id}/feed', 'FeedController@refresh');
